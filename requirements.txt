@@ -1,0 +1,77 @@
+# torchaudio>=0.12
+# librosa>=0.10
+# praat-parselmouth>=0.4.0
+# soundfile>=0.12
+# pydub>=0.25
+# tgt>=1.4
+
+# sounddevice==0.4.6
+# scipy==1.11.3
+# soundfile==0.12.1
+# pydub==0.25.1
+
+# # Native Audio Synthesis
+# gTTS==2.3.2
+
+# # Deep Learning + Speech Models
+# torch==2.2.1
+# torchaudio==2.2.1
+
+# # Audio Analysis
+# librosa==0.10.1
+# praat-parselmouth==0.4.2
+# tgt==1.4.4
+
+# # MFA forced alignments (you install MFA binary separately)
+# python-magic==0.4.27
+
+# # Optional for development/debugging
+# numpy==1.26.4
+
+
+
+# 🧠 Deep Learning and ASR
+torch==2.2.1
+torchaudio==2.2.1
+
+# 🎵 Audio Processing
+librosa==0.10.1
+soundfile==0.12.1
+pydub==0.25.1
+praat-parselmouth==0.4.2
+scipy==1.11.3
+
+# 🎙️ Microphone Input (for recording)
+sounddevice==0.4.6
+pipwin==0.5.2  # For installing PyAudio/PortAudio on Windows
+
+# 📚 NLP / TTS
+gTTS==2.3.2
+
+# 🧾 Forced Alignment
+tgt==1.4.4
+python-magic==0.4.27
+
+# 📊 Visualization
+seaborn==0.13.2
+
+# 🔧 Utilities
+numpy==1.26.4
+ipython==8.22.2
+
+
+# pip install torch==2.2.1 torchaudio==2.2.1
+# pip install librosa==0.10.1 soundfile==0.12.1 scipy==1.11.3 numpy==1.26.4
+
+
+# pip install sounddevice==0.4.6 pydub==0.25.1 gTTS==2.3.2 seaborn==0.13.2 ipython==8.22.2 tgt==1.4.4 python-magic==0.4.27
+
+
+# pip install pipwin
+# pipwin install pyaudio
+
+# pip install praat-parselmouth==0.4.2
+# pip install sounddevice scipy
+# pip install keyboard
+
+# pip install some-package==version --no-deps
